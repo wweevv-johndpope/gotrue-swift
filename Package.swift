@@ -19,7 +19,7 @@ let package = Package(
     .package(url: "https://github.com/WeTransfer/Mocker", from: "2.7.0"),
     .package(url: "https://github.com/binaryscraping/swift-composable-keychain", from: "0.0.2"),
     .package(url: "https://github.com/kean/Get", from: "2.0.0"),
-    .package(url: "https://github.com/kean/URLQueryEncoder", from: "0.2.0"),
+    .package(url: "https://github.com/kean/URLQueryEncoderKit", from: "0.2.2")
   ],
   targets: [
     .target(
@@ -27,7 +27,7 @@ let package = Package(
       dependencies: [
         .product(name: "Get", package: "Get"),
         .product(name: "ComposableKeychain", package: "swift-composable-keychain"),
-        .product(name: "URLQueryEncoder", package: "URLQueryEncoder"),
+        .product(name: "URLQueryEncoderKit", package: "URLQueryEncoderKit"),
       ]
     ),
     .testTarget(

@@ -38,12 +38,12 @@
         }
       },
       {
-        "package": "URLQueryEncoder",
-        "repositoryURL": "https://github.com/kean/URLQueryEncoder",
+        "package": "URLQueryEncoderKit",
+        "repositoryURL": "https://github.com/wweevv-johndpope/URLQueryEncoderKit",
         "state": {
           "branch": null,
-          "revision": "4cc975d4d075d0e62699a796a08284e217d4ee93",
-          "version": "0.2.0"
+          "revision": "26b2513aea3b1b52ab0d203e55efefc847852177",
+          "version": "0.2.2"
         }
       },
       {

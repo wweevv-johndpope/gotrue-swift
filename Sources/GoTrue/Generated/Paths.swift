@@ -5,7 +5,7 @@
 
 import Foundation
 import Get
-import URLQueryEncoder
+import URLQueryEncoderKit
 
 extension Paths {
   internal static var token: Token {
